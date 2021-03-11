@@ -10,7 +10,7 @@ while (True):
     if choice == 0:
         break
     elif choice == 1:
-        print(generator.generate())
+        print("Here is your password: " + generator.generate())
     else:
         print("Command not found")
 
